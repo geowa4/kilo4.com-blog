@@ -1,0 +1,94 @@
+baseURL = '/'
+relativeURLs = true
+languageCode = 'en-us'
+title = 'George Adams IV'
+capitalizeListTitles = false
+theme = 'PaperMod'
+publishDir = 'pb_public'
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+# Enable categories and tags
+[taxonomies]
+category = 'categories'
+tag = 'tags'
+
+# Syntax highlighting
+[markup]
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+lineNos = false
+style = 'monokai'
+
+# Minification settings
+[minify]
+disableJSON = true
+
+[params]
+env = 'production'
+description = 'Personal blog about things I have learned'
+author = 'George Adams IV'
+defaultTheme = 'auto'
+disableThemeToggle = true
+showReadingTime = false
+showShareButtons = false
+showPostNavLinks = true
+showBreadCrumbs = true
+showCodeCopyButtons = true
+showToc = true
+
+[params.assets]
+favicon = '/favicon.svg'
+favicon16x16 = '/favicon.svg'
+favicon32x32 = '/favicon.svg'
+apple_touch_icon = '/favicon.svg'
+
+[params.homeInfoParams]
+Title = 'My Thoughts and Learnings'
+Content = 'Welcome to my personal blog where I write about things I have learned.'
+
+[[params.socialIcons]]
+name = 'github'
+url = 'https://github.com/geowa4'
+
+[[params.socialIcons]]
+name = 'linkedin'
+url = 'https://www.linkedin.com/in/geowa4'
+
+[[menu.main]]
+identifier = 'search'
+name = 'Search'
+url = '/search/'
+weight = 5
+
+[[menu.main]]
+identifier = 'posts'
+name = 'Posts'
+url = '/posts/'
+weight = 10
+
+[[menu.main]]
+identifier = 'categories'
+name = 'Categories'
+url = '/categories/'
+weight = 20
+
+[[menu.main]]
+identifier = 'tags'
+name = 'Tags'
+url = '/tags/'
+weight = 30
+
+[[menu.main]]
+identifier = 'archives'
+name = 'Archives'
+url = '/archives/'
+weight = 40
+
+[[menu.main]]
+identifier = 'about'
+name = 'About'
+url = '/about/'
+weight = 50

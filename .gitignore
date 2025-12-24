@@ -1,0 +1,35 @@
+# Claude Code
+.claude/
+
+# Hugo build output
+pb_public/
+
+# Hugo lock file
+.hugo_build.lock
+
+# Go binary
+pocketbase
+
+# Environment variables (contains secrets!)
+.env
+.env.local
+.env*.local
+
+# Pocketbase data directory (contains db, logs, backups, generated types)
+pb_data/
+
+# Auth files
+auth
+auth-wal
+
+# macOS
+.DS_Store
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Resources cache
+resources/_gen/

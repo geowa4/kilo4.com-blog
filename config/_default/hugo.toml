@@ -1,7 +1,7 @@
 baseURL = '/'
 relativeURLs = true
 languageCode = 'en-us'
-title = 'George Adams IV'
+title = 'Kilo 4 Lab Notebook'
 capitalizeListTitles = false
 theme = 'PaperMod'
 publishDir = 'pb_public'
@@ -28,7 +28,7 @@ disableJSON = true
 
 [params]
 env = 'production'
-description = 'Personal blog about things I have learned'
+description = 'Propagating ideas and experiments'
 author = 'George Adams IV'
 defaultTheme = 'auto'
 disableThemeToggle = true
@@ -46,8 +46,8 @@ favicon32x32 = '/favicon.svg'
 apple_touch_icon = '/favicon.svg'
 
 [params.homeInfoParams]
-Title = 'My Thoughts and Learnings'
-Content = 'Welcome to my personal blog where I write about things I have learned.'
+Title = 'On the Air with George Adams IV'
+Content = 'A software engineer and ham radio operator propagating ideas and experiments'
 
 [[params.socialIcons]]
 name = 'github'

@@ -2,7 +2,7 @@
 title: "Hello World"
 date: 2025-12-02
 draft: false
-categories: ["geowa4"]
+categories: ["notes"]
 tags: ["introduction", "hello"]
 summary: "Welcome to my blog - a quick introduction and what to expect."
 ---

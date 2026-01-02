@@ -1,0 +1,7 @@
+{{- range .Params.categories }}
+  {{- $cat := . }}
+  {{- $allowed := site.Data.categories.allowed }}
+  {{- if not (in $allowed $cat) }}
+    {{- errorf "Invalid category '%s' in %s. Allowed: %s" $cat $.File.Path (delimit $allowed ", ") }}
+  {{- end }}
+{{- end }}

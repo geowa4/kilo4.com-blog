@@ -47,7 +47,7 @@ apple_touch_icon = '/favicon.svg'
 
 [params.homeInfoParams]
 Title = 'On the Air with George Adams IV'
-Content = 'A software engineer and ham radio operator propagating ideas and experiments'
+Content = 'A software engineer and ham radio operator propagating ideas and experiments through this personal blog. Here I document my learning journey in software development and technology, sharing knowledge with others who might find it useful.'
 
 [[params.socialIcons]]
 name = 'github'
@@ -88,7 +88,7 @@ url = '/archives/'
 weight = 40
 
 [[menu.main]]
-identifier = 'about'
-name = 'About'
-url = '/about/'
-weight = 50
+identifier = 'bookmarks'
+name = 'Bookmarks'
+url = '/bookmarks/'
+weight = 45

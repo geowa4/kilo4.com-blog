@@ -1,0 +1,30 @@
+{{- /* Bookmark button - state managed by bookmarks.js */ -}}
+<button id="bookmark-button" class="bookmark-button" style="display: none;">
+  🔖 Bookmark
+</button>
+
+<style>
+.bookmark-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 16px;
+  margin: 12px 0;
+  background: var(--theme);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.bookmark-button:hover {
+  background: var(--hljs-bg);
+  border-color: var(--primary);
+}
+
+.bookmark-button.bookmarked {
+  background: var(--entry);
+  border-color: var(--primary);
+}
+</style>

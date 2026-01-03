@@ -1,0 +1,40 @@
+{{- /* Auth UI container - populated by bookmarks.js */ -}}
+<div id="auth-ui" class="auth-container">
+  <a href="#" id="auth-link" class="auth-link" title="Login with GitHub">
+    <span class="auth-username">Login</span>
+  </a>
+</div>
+
+<style>
+.auth-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.auth-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  color: var(--primary);
+  background: var(--theme);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 35px;
+  transition: all 0.2s;
+}
+
+.auth-link:hover {
+  background: var(--hljs-bg);
+  border-color: var(--primary);
+}
+
+.auth-username {
+  font-size: 14px;
+  color: var(--primary);
+  line-height: 1;
+}
+</style>
